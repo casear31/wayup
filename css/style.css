@@ -1,7 +1,9 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+ * {
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    font-family: Gothic, serif;
+}
 
 body {
     background-color: #fff;
@@ -9,4 +11,57 @@ body {
 
 .logo img{
     max-width: 150px;
+    max-height: 40px;
+}
+p {
+    font-size: 0.8em;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    background-color: green;
+    color: #fff;
+    line-height: 1.0;
+    padding: 5.5px;
+    font-size: 1.3em;;
+}
+
+.block-high {
+    min-height: 100px;
+    padding: 40px;
+}
+
+.p-form {
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+    /* font-size: 0.9em; */
+
+}
+
+.color-red {
+    color: red;
+}
+
+.block-blue {
+    font-size: 13px; 
+    font-weight: 100;
+    width: 85px;
+    background-color: blue;
+    color: #fff;
+    margin-bottom: 85px;
+}
+
+.list {
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+.list  li{
+    border: 1px solid #000;
+    line-height: 1.225;
+    font-size: 1.5em;
 }
